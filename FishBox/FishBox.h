@@ -22,6 +22,7 @@ private: //variables
 	std::string materialName = "MaterialName";
 	std::string textureFilePath;
 	std::string normalFilePAth;
+	float ambient[3];
 	float diffuse[3];
 	float specular[3];
 	float shinyValue;
@@ -29,6 +30,7 @@ public: //functions
 	FSHMaterial(void);
 	std::string getMaterialName();
 	std::string getTextureFilePath();
+	float* getAmbient();
 	float* getDiffuse();
 	float* getSpecular();
 	float getShinyness();
@@ -63,8 +65,9 @@ private: //functions
 public: //functiuons
 	FSHMesh(void);
 	~FSHMesh(void);
-	 unsigned int getVertexCount();
+	unsigned int getVertexCount();
 	std::vector<FSHVertexData>& GetVertices();
+	unsigned int getIndexCount();
 	//getUVs();
 	//getMaterial();
 	//getTexture();

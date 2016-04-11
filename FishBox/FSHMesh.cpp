@@ -55,6 +55,11 @@ std::vector<FSHVertexData>& FSHMesh::GetVertices()
 	return this->vertexVector;
 }
 
+unsigned int FSHMesh::getIndexCount()
+{
+	return this->indexCount;
+}
+
 
 
 

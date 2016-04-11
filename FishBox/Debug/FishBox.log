@@ -1,27 +1,33 @@
-﻿  FSHMaterial.cpp
+﻿  FSHMesh.cpp
 c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fishbox.h(22): warning C4251: 'FSHMaterial::materialName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FSHMaterial'
 c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fishbox.h(23): warning C4251: 'FSHMaterial::textureFilePath': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FSHMaterial'
 c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fishbox.h(24): warning C4251: 'FSHMaterial::normalFilePAth': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FSHMaterial'
-c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fishbox.h(53): warning C4251: 'FSHMesh::materialName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FSHMesh'
-c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fishbox.h(54): warning C4251: 'FSHMesh::vertexVector': class 'std::vector<FSHVertexData,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'FSHMesh'
+c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fishbox.h(55): warning C4251: 'FSHMesh::materialName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FSHMesh'
+c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fishbox.h(56): warning C4251: 'FSHMesh::vertexVector': class 'std::vector<FSHVertexData,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'FSHMesh'
           with
           [
               _Ty=FSHVertexData
           ]
-c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fishbox.h(83): warning C4251: 'FSHModel::MeshList': class 'std::vector<FSHMesh,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'FSHModel'
+c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fishbox.h(86): warning C4251: 'FSHModel::MeshList': class 'std::vector<FSHMesh,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'FSHModel'
           with
           [
               _Ty=FSHMesh
           ]
-c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fishbox.h(84): warning C4251: 'FSHModel::MaterialList': class 'std::vector<FSHMaterial,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'FSHModel'
+c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fishbox.h(87): warning C4251: 'FSHModel::MaterialList': class 'std::vector<FSHMaterial,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'FSHModel'
           with
           [
               _Ty=FSHMaterial
           ]
-c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fishbox.h(106): warning C4251: 'FishBox::ModelList': class 'std::vector<FSHModel,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'FishBox'
+c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fishbox.h(109): warning C4251: 'FishBox::ModelList': class 'std::vector<FSHModel,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'FishBox'
           with
           [
               _Ty=FSHModel
           ]
+c:\users\swing\documents\school\github'\litetspel\fishbox\fishbox\fshmesh.cpp(19): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  FishBox.cpp
+  FSHModel.cpp
+  FSHMaterial.cpp
      Creating library C:\Users\Swing\Documents\school\GitHub'\LitetSpel\FishBox\Debug\FishBox.lib and object C:\Users\Swing\Documents\school\GitHub'\LitetSpel\FishBox\Debug\FishBox.exp
   FishBox.vcxproj -> C:\Users\Swing\Documents\school\GitHub'\LitetSpel\FishBox\Debug\FishBox.dll
