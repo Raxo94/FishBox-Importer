@@ -20,7 +20,16 @@ std::string FSHMaterial::getTextureFilePath()
 
 float * FSHMaterial::getDiffuse()
 {
-	
 	return this->diffuse;
+}
+
+float * FSHMaterial::getSpecular()
+{
+	return this->specular;
+}
+
+float FSHMaterial::getShinyness()
+{
+	return this->shinyValue;
 }
 
